@@ -53,18 +53,12 @@ export const chaptersData: ChapterContent[] = [
   {
     id: "chapter-06",
     title: "THE US CHAPTER 🫂",
-    // mainMessage: "Pehli baar coaching mein mile the, tab honestly nahi laga tha ki humari kabhi itni achhi dosti hogi. Par tu itni achhi nikli ki pata hi nahi chala kab tu ek stranger se meri life ka itna special part ban gayi.",
-    // supportingMessage: "Hum bhale hi zyada nahi milte. Par jab recently itne time baad mile, toh sach mein aisa laga hi nahi ki itne din ho gaye the. Wahi baatein, wahi hasi-mazaak, wahi ek dusre ko chidhana... jaise beech mein koi gap aaya hi nahi tha.",
-    // optionalMessage: "Aur shayad yahi toh sabse special hai humari dosti mein. Ki chahe kitna bhi time beet jaaye, tere saath sab kuch utna hi apna sa lagta hai.\n\nPata nahi tujhe iska ehsaas hai ya nahi, par tu mere liye un logon mein se hai jinse milkar lagta hai woooo kya hi loggg hai :)",
-    // closingLine: "Bas aise hi rehna, apni issi pagal si personality ke saath. Aur haan, milna thoda zyada kar diya kar... ❤️",
-    // accentColor: "#A8DDE8", // soft ice blue
-    // bgImagePath: "/photos/test6.png.jpeg",
-    mainMessage: "This is private :)",
-    supportingMessage: "Hello ARYAN",
-    optionalMessage: "Bye Aryan",
-    closingLine: "HAHAHAHAHAHAHAHAHAHAHA",
-    accentColor: "#A8DDE8",
-    bgImagePath: "/photos/image.png",
-  }
+    mainMessage : "Pehli baar coaching mein mile the, tab honestly bilkul nahi laga tha ki is insaan se meri itni achhi dosti ho jayegi. Matlab first impression kuch khaas tha bhi nahi... aur somehow dosti survive kar rhi hai abhi tak. Impressive, honestly. 😂",
+    supportingMessage: "Hum bhale hi zyada nahi milte, but recently jab itne time baad mile, toh laga hi nahi ki itna gap ho gaya tha. Wahi pagalpan, wahi hasi-mazaak, wahi  irritate karna... matlab kuch log time ke saath badalte hain, hum dono bas aur zyada pagal ho gaye hain. 😂",
+    optionalMessage: "I think humari dosti ki sabse achhi baat ye hai ki hum kitne bhi time tak na mile, milte hi koi catch-up session nahi hota. Seedha wahi purani bakwas pe wapas. 😂 Zero awkwardness, zero formalities — bas 5 minute milo aur lagta hai haan, kuch cheezein abhi bhi bilkul nahi badli. Aur tu un rare logon mein se hai jinke saath zyada effort nahi lagta. Milna ho toh mil lo, baat karni ho toh kar lo, warna mahino tak gayab raho... dosti ko koi farak hi nahi padta. Basically, low maintenance friendship ka premium version. 🤝😂",
+    closingLine: "Bas apni yehi cruel personality maintain rakhna. Zyada decent banne ki zarurat nahi hai, waise bhi suit nahi karega. 😂 Aur kabhi-kabhi darshan de diya kar... har baar milne ke liye calendar event create karna zaroori nahi hota. ❤️",
+    accentColor: "#A8DDE8", // soft ice blue
+    bgImagePath: "/photos/test6.png.jpeg",
+      }
 ];
 

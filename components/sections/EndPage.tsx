@@ -146,7 +146,7 @@ export default function EndPage({ onReplay }: { onReplay: () => void }) {
           >
             <RotateCcw className="w-4 h-4 text-[#FFF3E4]/80 group-hover:-rotate-180 transition-transform duration-700" />
             <span className="text-[#FFF3E4] text-[11px] font-bold tracking-[0.2em] uppercase">
-              Replay our little journey
+              Replay this little journey
             </span>
           </motion.button>
         )}
