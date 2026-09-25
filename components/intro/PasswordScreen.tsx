@@ -46,7 +46,7 @@ export default function PasswordScreen({ onUnlock }: PasswordScreenProps) {
           Restricted Access
         </h1>
         <p className="text-[#FFF3E4]/50 text-[10px] tracking-[0.3em] uppercase font-mono mb-12 text-center">
-          SYSTEM NANO.EXE
+          SYSTEM HELLOTHERE.EXE
         </p>
 
         <form onSubmit={handleSubmit} className="w-full relative">
