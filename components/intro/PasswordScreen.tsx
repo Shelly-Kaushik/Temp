@@ -14,7 +14,7 @@ export default function PasswordScreen({ onUnlock }: PasswordScreenProps) {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (password === "genesis@2022") {
+    if (password === "aryanbhadwu") {
       onUnlock();
     } else {
       setError(true);
