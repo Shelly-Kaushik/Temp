@@ -7,10 +7,12 @@ import ChapterManager from "@/components/story/ChapterManager";
 import EndPage from "@/components/sections/EndPage";
 import MusicToggle from "@/components/ui/MusicToggle";
 
-type AppState = "intro" | "chapters" | "end";
+import PasswordScreen from "@/components/intro/PasswordScreen";
+
+type AppState = "auth" | "intro" | "chapters" | "end";
 
 export default function Home() {
-  const [appState, setAppState] = useState<AppState>("intro");
+  const [appState, setAppState] = useState<AppState>("auth");
   const [isMusicPlaying, setIsMusicPlaying] = useState(false);
 
   const handleEnterWorld = () => {
@@ -36,6 +38,10 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#080706] text-[#F3E4C8] overflow-x-hidden selection:bg-[#24150F]">
       <AnimatePresence mode="wait">
+        {appState === "auth" && (
+          <PasswordScreen key="auth" onUnlock={() => setAppState("intro")} />
+        )}
+
         {appState === "intro" && (
           <CinematicHome 
             key="intro" 
@@ -54,7 +60,11 @@ export default function Home() {
         )}
       </AnimatePresence>
 
-      <MusicToggle currentSection={appState} isPlaying={isMusicPlaying} onToggle={toggleMusic} />
+      <MusicToggle 
+        currentSection={appState === "auth" ? "intro" : appState} 
+        isPlaying={isMusicPlaying} 
+        onToggle={toggleMusic} 
+      />
     </main>
   );
 }
